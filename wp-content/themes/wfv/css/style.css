@@ -1,0 +1,88 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(102, 102, 102);
+    color: #444;
+}
+h1 small, .h1 small {
+    font-size: 14px;
+}
+#header {
+    background-image: url(img/header.jpg);
+    height: 95px;
+}
+#main {
+    background-color: #fff;
+}
+.post {
+    border: 2px solid #ccc;
+    margin-bottom: 15px;
+}
+.postedby {
+    color: #777;
+}
+.widget ul {
+    padding-left: 0;
+    list-style: none;
+}
+.previous-next-bar {
+    padding-bottom: 20px;
+}
+h1, .entry-title {
+    margin-bottom: 17px;
+}
+.entry-title a, .home-link {
+    color: #444;
+    text-decoration: none;
+}
+.entry-title a:hover, .home-link:hover {
+    text-decoration: none;
+    color: #000;
+}
+#comments {
+    padding-top: 20px;
+}
+.comment-form label {
+    width: 20%;
+}
+.comment-form input[type=text], textarea {
+    outline: none;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #DDDDDD;
+    width: 77%;
+}
+.comment-meta {
+    text-align: right;
+}
+.comment-form input[type=text]:focus, .comment-form textarea:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+.form-allowed-tags {
+    display: none;
+}
+
+.comment-list {
+    list-style: none;
+    padding-left: 0;
+}
+.comment-body {
+    padding-bottom: 10px;
+}
+.comment-list ul {
+    list-style: none;
+}
+.comments-link {
+    margin-bottom: 10px;
+}
+#submit {
+    background: #eee;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-decoration: none;
+}
