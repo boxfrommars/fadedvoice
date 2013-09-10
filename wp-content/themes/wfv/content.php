@@ -7,9 +7,11 @@
     </h3>
     <?php endif; ?>
     <?php the_content(); ?>
-    <?php if ( comments_open() && ! is_single() ) : ?>
-        <div class="comments-link">
-            <?php comments_popup_link( 'комментировать', __( 'One comment so far', 'twentythirteen' ), 'комментарии (%)' ); ?>
-        </div>
-    <?php endif; // comments_open() ?>
+
+    <div class="post-meta">
+        <i><?php the_time('d.m.Y') ?> <?php the_time() ?></i>
+        <?php if ( comments_open() && ! is_single() ) : ?>
+            <div class="pull-right"><?php comments_popup_link( 'комментировать', '1 комментарий', 'комментарии (%)' ); ?></div>
+        <?php endif; // comments_open() ?>
+    </div>
 </div>
